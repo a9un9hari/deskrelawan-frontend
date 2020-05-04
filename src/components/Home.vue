@@ -1,10 +1,7 @@
 <template>
-  <div class="map">
-      <h2>Peta Laporan Desk Relawan</h2>
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-  Button
-</button>
-      <div style="height: 600px; width: 100%">
+  <div class="map ">
+      <h1>Desk Relawan</h1>
+      <div style="height: 500px; width: 100%">
         <l-map :zoom="zoom" :center="center">
           <l-marker :lat-lng="center"></l-marker>
           <l-tile-layer :url="url" :attribution="attribution"></l-tile-layer>

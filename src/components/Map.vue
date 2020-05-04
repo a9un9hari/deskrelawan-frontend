@@ -1,7 +1,7 @@
 <template>
   <div class="map">
-      <h2>Peta Dengan VueJs dan LeafletJs</h2>
-      <div style="height: 600px; width: 100%">
+      <h1>Desk Relawan</h1>
+      <div style="height: 500px; width: 100%">
         <l-map :zoom="zoom" :center="center">
           <l-marker :lat-lng="center"></l-marker>
           <l-tile-layer :url="url" :attribution="attribution"></l-tile-layer>
